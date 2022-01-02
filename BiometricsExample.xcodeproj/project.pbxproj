@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000BE3352767545400D330D4 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000BE3342767545400D330D4 /* MapsViewController.swift */; };
 		000CE10B2760C31900F17FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000CE10A2760C31900F17FFF /* AppDelegate.swift */; };
 		000CE10D2760C31900F17FFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000CE10C2760C31900F17FFF /* SceneDelegate.swift */; };
 		000CE10F2760C31900F17FFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000CE10E2760C31900F17FFF /* ViewController.swift */; };
 		000CE1122760C31900F17FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000CE1102760C31900F17FFF /* Main.storyboard */; };
 		000CE1142760C31B00F17FFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000CE1132760C31B00F17FFF /* Assets.xcassets */; };
 		000CE1172760C31B00F17FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000CE1152760C31B00F17FFF /* LaunchScreen.storyboard */; };
+		000CE1292761E85D00F17FFF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000CE1282761E85D00F17FFF /* secondViewController.swift */; };
+		005C6A0827631D6100813B01 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005C6A0727631D6100813B01 /* ThirdViewController.swift */; };
+		009FE8FB277C125300C4417E /* bleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009FE8F9277C125300C4417E /* bleTableViewCell.swift */; };
+		009FE8FC277C125300C4417E /* bleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 009FE8FA277C125300C4417E /* bleTableViewCell.xib */; };
+		00A704E7277AF061001778D6 /* BLEUtilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A704E6277AF061001778D6 /* BLEUtilityViewController.swift */; };
+		00AF4CD22773094700D9B475 /* BLEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AF4CD12773094700D9B475 /* BLEViewController.swift */; };
+		53963C9314B871D12A81D041 /* Pods_BiometricsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8AD7FC77DA5296CA735A3A /* Pods_BiometricsExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000BE3342767545400D330D4 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		000CE1072760C31900F17FFF /* BiometricsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiometricsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000CE10A2760C31900F17FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		000CE10C2760C31900F17FFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		000CE1132760C31B00F17FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000CE1162760C31B00F17FFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		000CE1182760C31B00F17FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000CE1282761E85D00F17FFF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		005C6A0727631D6100813B01 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		009FE8F9277C125300C4417E /* bleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleTableViewCell.swift; sourceTree = "<group>"; };
+		009FE8FA277C125300C4417E /* bleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = bleTableViewCell.xib; sourceTree = "<group>"; };
+		00A704E6277AF061001778D6 /* BLEUtilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEUtilityViewController.swift; sourceTree = "<group>"; };
+		00AF4CD12773094700D9B475 /* BLEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEViewController.swift; sourceTree = "<group>"; };
+		4A8DF4B07753DFA77447336C /* Pods-BiometricsExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiometricsExample.release.xcconfig"; path = "Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample.release.xcconfig"; sourceTree = "<group>"; };
+		4E8AD7FC77DA5296CA735A3A /* Pods_BiometricsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BiometricsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB84779F1064D11A3AEA8BD8 /* Pods-BiometricsExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiometricsExample.debug.xcconfig"; path = "Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53963C9314B871D12A81D041 /* Pods_BiometricsExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				000CE1092760C31900F17FFF /* BiometricsExample */,
 				000CE1082760C31900F17FFF /* Products */,
+				725EA13318B3289BD7A65803 /* Pods */,
+				96CBE954DE9327BFDB684027 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +81,35 @@
 				000CE10C2760C31900F17FFF /* SceneDelegate.swift */,
 				000CE10E2760C31900F17FFF /* ViewController.swift */,
 				000CE1102760C31900F17FFF /* Main.storyboard */,
+				000BE3342767545400D330D4 /* MapsViewController.swift */,
+				000CE1282761E85D00F17FFF /* secondViewController.swift */,
+				005C6A0727631D6100813B01 /* ThirdViewController.swift */,
 				000CE1132760C31B00F17FFF /* Assets.xcassets */,
 				000CE1152760C31B00F17FFF /* LaunchScreen.storyboard */,
 				000CE1182760C31B00F17FFF /* Info.plist */,
+				00AF4CD12773094700D9B475 /* BLEViewController.swift */,
+				00A704E6277AF061001778D6 /* BLEUtilityViewController.swift */,
+				009FE8F9277C125300C4417E /* bleTableViewCell.swift */,
+				009FE8FA277C125300C4417E /* bleTableViewCell.xib */,
 			);
 			path = BiometricsExample;
+			sourceTree = "<group>";
+		};
+		725EA13318B3289BD7A65803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB84779F1064D11A3AEA8BD8 /* Pods-BiometricsExample.debug.xcconfig */,
+				4A8DF4B07753DFA77447336C /* Pods-BiometricsExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96CBE954DE9327BFDB684027 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E8AD7FC77DA5296CA735A3A /* Pods_BiometricsExample.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 000CE11B2760C31B00F17FFF /* Build configuration list for PBXNativeTarget "BiometricsExample" */;
 			buildPhases = (
+				9BFEFF0892D79B8B14EEDC2F /* [CP] Check Pods Manifest.lock */,
 				000CE1032760C31900F17FFF /* Sources */,
 				000CE1042760C31900F17FFF /* Frameworks */,
 				000CE1052760C31900F17FFF /* Resources */,
+				763344C9E5E87EA2CF31284A /* [CP] Embed Pods Frameworks */,
+				D36772779E103A0D31FEB4A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +175,85 @@
 				000CE1172760C31B00F17FFF /* LaunchScreen.storyboard in Resources */,
 				000CE1142760C31B00F17FFF /* Assets.xcassets in Resources */,
 				000CE1122760C31900F17FFF /* Main.storyboard in Resources */,
+				009FE8FC277C125300C4417E /* bleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		763344C9E5E87EA2CF31284A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFEFF0892D79B8B14EEDC2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BiometricsExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36772779E103A0D31FEB4A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BiometricsExample/Pods-BiometricsExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		000CE1032760C31900F17FFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000CE1292761E85D00F17FFF /* secondViewController.swift in Sources */,
 				000CE10F2760C31900F17FFF /* ViewController.swift in Sources */,
+				005C6A0827631D6100813B01 /* ThirdViewController.swift in Sources */,
+				000BE3352767545400D330D4 /* MapsViewController.swift in Sources */,
 				000CE10B2760C31900F17FFF /* AppDelegate.swift in Sources */,
 				000CE10D2760C31900F17FFF /* SceneDelegate.swift in Sources */,
+				00AF4CD22773094700D9B475 /* BLEViewController.swift in Sources */,
+				009FE8FB277C125300C4417E /* bleTableViewCell.swift in Sources */,
+				00A704E7277AF061001778D6 /* BLEUtilityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +397,7 @@
 		};
 		000CE11C2760C31B00F17FFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB84779F1064D11A3AEA8BD8 /* Pods-BiometricsExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +417,7 @@
 		};
 		000CE11D2760C31B00F17FFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8DF4B07753DFA77447336C /* Pods-BiometricsExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

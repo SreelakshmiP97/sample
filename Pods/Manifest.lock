@@ -1,0 +1,34 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - GoogleMaps (6.0.1):
+    - GoogleMaps/Maps (= 6.0.1)
+  - GoogleMaps/Base (6.0.1)
+  - GoogleMaps/Maps (6.0.1):
+    - GoogleMaps/Base
+  - SwiftChart (1.0.1)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - Charts
+  - GoogleMaps (= 6.0.1)
+  - SwiftChart
+  - SwiftCharts (~> 0.6.5)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - GoogleMaps
+    - SwiftChart
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  GoogleMaps: c213fc2334b7374144cede914da779b99be0ab74
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: 34149bd0140ef4079e2a3712ef11b4b6f66d138f
+
+COCOAPODS: 1.11.2
